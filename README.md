@@ -14,7 +14,7 @@ Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-i
 
 1. Clone this repository
 2. `npm install` in the project root folder on local
-3. `npm run dev` to start the studio and frontend locally
+3. `npm run dev` to start the studio and frontend locally (**NB If you get errors relating to `ERR_OSSL_EVP_UNSUPPORTED` run `export NODE_OPTIONS=--openssl-legacy-provider`**)
    - Your studio should be running on [http://localhost:3333](http://localhost:3333)
    - Your frontend should be running on [http://localhost:3000](http://localhost:3000)
 4. `npm run build` to build to production locally
